@@ -147,27 +147,23 @@ h3 {
   border: 1px solid #D6D7D9;
   overflow: hidden; }
 
-.search-bar-wrap {
-  max-width: 40em; }
-
 .center-search-bar {
-  width: 100%;
-  margin: 0;
-  transform: translate(9.75em, 0); }
+  float: left;
+  width: 30em;
+  margin: 0; }
   .center-search-bar input {
-    width: 75%;
+    width: 100%;
     height: 2em; }
 
 .search-icon {
+  float: left;
   background-color: #1B50A0;
   color: white;
   text-align: center;
-  max-width: 4em;
-  height: 2.37em;
-  transform: translate(39em, -2.4em); }
+  height: 2.37em; }
 
 .icon-move {
-  padding: 0.5em; }
+  padding: 0.5em 1em 0.5em 1em; }
 
 /************** RIGHT INFO BAR **********************/
 .info-bar {
