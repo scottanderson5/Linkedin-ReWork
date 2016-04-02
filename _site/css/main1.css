@@ -119,13 +119,13 @@ h3 {
 
 .logo {
   width: 4em;
-  padding: 0.5em 0.5em 0em 0.5em; }
+  padding: 0.8em 0.5em 0em 0.5em; }
 
 .nav-bar {
   display: inline-block;
   padding: 0em 0.5em 0.5em 0em;
   margin: 0;
-  transform: translate(0, -1em); }
+  transform: translate(0, -1.2em); }
 
 .nav-li {
   font-family: source-sans-pro;
@@ -134,7 +134,7 @@ h3 {
   text-decoration: none;
   list-style-type: none; }
 
-/************** CENTER BOX***************************/
+/************** CENTER ***************************/
 .main-body {
   margin-left: auto;
   margin-right: auto;
@@ -143,11 +143,11 @@ h3 {
 .center-info {
   float: left;
   margin-top: 3em;
-  height: 20em;
-  border: 1px solid #D6D7D9;
   overflow: hidden; }
 
+/*************** CENTER SEARCH BAR ***************/
 .center-search-bar {
+  font-family: source-sans-pro;
   float: left;
   width: 30em;
   margin: 0; }
@@ -164,6 +164,31 @@ h3 {
 
 .icon-move {
   padding: 0.5em 1em 0.5em 1em; }
+
+/**************CENTER NEWS AND ACTIVITY BOX**********/
+.center-main-box {
+  border: 1px solid #D6D7D9;
+  margin-top: 60px;
+  height: 10em;
+  max-width: 44em; }
+
+.center-main-box-header {
+  background-color: #E7F0F7;
+  width: 100%;
+  height: 5em;
+  overflow: hidden; }
+
+.center-main-activity, .center-main-news {
+  font-family: source-sans-pro;
+  background-color: #0066C2;
+  width: 5em;
+  height: 1.5em;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-left: 1em;
+  float: left; }
 
 /************** RIGHT INFO BAR **********************/
 .info-bar {
