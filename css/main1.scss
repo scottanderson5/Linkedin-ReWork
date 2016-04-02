@@ -18,7 +18,7 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 @mixin grid($geezy){
   width: ($geezy * $ind-col-width) + ($gut-width * ($geezy - 1));
-  float: left;
+  /*float: left;*/
   margin-right: $gut-width;
   &:last-child {
     margin-right: auto;
@@ -126,6 +126,41 @@ $PrimaryBackground: #1B50A0;
 	padding: 0.5em;
 	text-decoration: none;
 	list-style-type: none;
+}
+
+/************** CENTER BOX***************************/
+
+.main-body{
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+
+}
+
+.center-info{
+	float: left;
+	margin-top: 3em;
+	height: 3em;
+	border: 1px solid #D6D7D9;
+}
+
+.center-search-bar{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/************** RIGHT INFO BAR **********************/
+
+.info-bar{
+	font-family: $Font;
+	float: right;
+	margin-top: 3em;
+}
+
+.profile-box{
+	border: 1px solid #D6D7D9;
+	height: 10em;
 }
 
 
