@@ -140,14 +140,36 @@ $PrimaryBackground: #1B50A0;
 .center-info{
 	float: left;
 	margin-top: 3em;
-	height: 3em;
+	height: 20em;
 	border: 1px solid #D6D7D9;
+	overflow: hidden;
+}
+
+.search-bar-wrap{
+	max-width: 40em;
 }
 
 .center-search-bar{
-	width: 75%;
-	margin-right: auto;
-	margin-left: auto;
+	width: 100%;
+	margin: 0;
+	transform: translate(9.75em, 0);
+	input{
+		width: 75%;
+		height: 2em;
+	}
+}
+
+.search-icon{
+	background-color: $PrimaryBackground;
+	color: white;
+	text-align: center;
+	max-width: 4em;
+	height: 2.37em;
+	transform: translate(39em, -2.4em);
+}
+
+.icon-move{
+	padding: 0.5em;
 }
 
 /************** RIGHT INFO BAR **********************/
