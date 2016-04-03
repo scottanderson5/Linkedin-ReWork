@@ -359,8 +359,34 @@ a {
       font-size: 0.9em; } }
   @media (min-width: 900px) {
     .connect-button {
-      padding: 0.5em;
+      padding: 0.6em 0.5em 0.5em 0.5em;
       font-size: 1em; } }
+
+/************** NEWS SWITCH CONTENT******************/
+.news-wrap {
+  padding: 1.5em;
+  margin-top: 1em;
+  overflow: hidden; }
+
+.news-personal {
+  overflow: hidden; }
+
+.news-picture {
+  width: 8em;
+  float: left; }
+
+.news-info {
+  font-family: source-sans-pro;
+  font-size: 1.1em;
+  padding: 1em;
+  list-style-type: none;
+  width: 25em;
+  float: left; }
+  .news-info li {
+    padding-bottom: 1em; }
+
+.news-icon {
+  padding-right: 0.6em; }
 
 /************** RIGHT INFO BAR **********************/
 /************** PROFILE PIC INFO BOX****************/
