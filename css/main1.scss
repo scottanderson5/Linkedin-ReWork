@@ -103,6 +103,7 @@ $PrimaryBackground: #1B50A0;
 
 a{
 	text-decoration: none;
+	color: black;
 }
 
 /*************** SITE HEADER ***********************/
@@ -177,7 +178,7 @@ a{
 .center-main-box{
 	border: 1px solid #D6D7D9;
 	margin-top: 60px;
-	height: 10em;
+	height: 50em;
 	max-width: 44em;
 }
 
@@ -191,6 +192,8 @@ a{
 .button-wrapper{
 	overflow: hidden;
 }
+
+/*********** TOGGLE BUTTONS **************/
 
 .button{
 	font-family: $Font;
@@ -215,12 +218,16 @@ a{
 	display: block;
 }
 
-#buttonActive{
-	margin: 0 auto;
+/************** ACTIVE SWITCH CONTENT *************/
+
+.activity-wrap{
+	margin-top: 1em;
+	padding: 1em;
 }
 
-#buttonNews{
-	margin: 0 auto;
+.activity-views{
+	color: #D60000;
+	font-size: 3em; 
 }
 
 
@@ -316,7 +323,6 @@ a{
 
 footer{
 	background-color: $PrimaryBackground;
-	height: 5em;
 }
 
 .footer-bar{

@@ -113,7 +113,8 @@ h3 {
       margin-right: auto; } }
 /*************** VARIABLES ********************/
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
 
 /*************** SITE HEADER ***********************/
 .site-header {
@@ -172,7 +173,7 @@ a {
 .center-main-box {
   border: 1px solid #D6D7D9;
   margin-top: 60px;
-  height: 10em;
+  height: 50em;
   max-width: 44em; }
 
 .center-main-box-header {
@@ -184,6 +185,7 @@ a {
 .button-wrapper {
   overflow: hidden; }
 
+/*********** TOGGLE BUTTONS **************/
 .button {
   font-family: source-sans-pro;
   background-color: #1B50A0;
@@ -204,11 +206,14 @@ a {
 .active {
   display: block; }
 
-#buttonActive {
-  margin: 0 auto; }
+/************** ACTIVE SWITCH CONTENT *************/
+.activity-wrap {
+  margin-top: 1em;
+  padding: 1em; }
 
-#buttonNews {
-  margin: 0 auto; }
+.activity-views {
+  color: #D60000;
+  font-size: 3em; }
 
 /************** RIGHT INFO BAR **********************/
 /************** PROFILE PIC INFO BOX****************/
@@ -280,8 +285,7 @@ a {
 
 /***************** FOOTER **********************/
 footer {
-  background-color: #1B50A0;
-  height: 5em; }
+  background-color: #1B50A0; }
 
 .footer-bar {
   display: inline-block;
