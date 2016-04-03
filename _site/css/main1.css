@@ -122,50 +122,78 @@ a {
   margin-bottom: 0; }
 
 .logo {
-  width: 4em;
+  width: 1.5em;
   padding: 0.8em 0.5em 0em 0.5em; }
+  @media (min-width: 600px) {
+    .logo {
+      width: 3em; } }
+  @media (min-width: 900px) {
+    .logo {
+      width: 4em; } }
 
 .nav-bar {
   display: inline-block;
   padding: 1em 0.5em 0.5em 0em;
   margin: 0;
-  transform: translate(0, -1.2em); }
+  width: 75%; }
 
 .nav-li {
   font-family: source-sans-pro;
-  font-size: 1.2em;
+  font-size: 0.8em;
   color: white;
   padding: 0.5em;
   text-decoration: none;
   list-style-type: none; }
+  @media (min-width: 600px) {
+    .nav-li {
+      font-size: 1em; } }
+  @media (min-width: 900px) {
+    .nav-li {
+      font-size: 1.2em; } }
 
 /************** CENTER ***************************/
 .main-body {
-  margin-left: auto;
-  margin-right: auto;
+  padding-right: 2em;
+  padding-left: 2em;
+  max-width: 1100px;
   overflow: hidden; }
 
 .center-info {
-  float: left;
   margin-top: 3em;
   overflow: hidden; }
+  @media (min-width: 600px) {
+    .center-info {
+      float: left; } }
 
 /*************** CENTER SEARCH BAR ***************/
 .center-search-bar {
   font-family: source-sans-pro;
+  width: 12em;
   float: left;
-  width: 30em;
-  margin: 0; }
+  margin-left: 3em; }
   .center-search-bar input {
     width: 100%;
+    font-size: 0.8em;
     height: 2em; }
+  @media (min-width: 600px) {
+    .center-search-bar {
+      margin: 0;
+      width: 20em; }
+      .center-search-bar input {
+        font-size: 1em; } }
+  @media (min-width: 900px) {
+    .center-search-bar {
+      width: 30em; } }
 
 .search-icon {
-  float: left;
   background-color: #1B50A0;
   color: white;
   text-align: center;
-  height: 2.37em; }
+  height: 2em;
+  float: left; }
+  @media (min-width: 600px) {
+    .search-icon {
+      height: 2.37em; } }
 
 .icon-move {
   padding: 0.5em 1em 0.5em 1em; }
@@ -174,8 +202,14 @@ a {
 .center-main-box {
   border: 1px solid #D6D7D9;
   margin-top: 60px;
-  height: 60em;
-  max-width: 44em; }
+  max-width: 20em; }
+  @media (min-width: 600px) {
+    .center-main-box {
+      margin-left: 0;
+      max-width: 30em; } }
+  @media (min-width: 900px) {
+    .center-main-box {
+      max-width: 44em; } }
 
 .center-main-box-header {
   background-color: #E7F0F7;
@@ -197,8 +231,8 @@ a {
   text-align: center;
   padding: 0.5em;
   margin-top: 1em;
-  margin-left: 1em;
-  float: left; }
+  float: left;
+  margin-left: 1em; }
 
 .button-content {
   display: none;
@@ -218,26 +252,50 @@ a {
 
 .activity-views {
   color: #D60000;
-  font-size: 3em;
+  font-size: 2.1em;
   float: left; }
+  @media (min-width: 600px) {
+    .activity-views {
+      font-size: 2.8em; } }
+  @media (min-width: 900px) {
+    .activity-views {
+      font-size: 3em; } }
 
 .profile-days-viewed {
   font-family: source-sans-pro;
   float: left;
-  font-size: 1.2em;
+  font-size: 1em;
   list-style-type: none;
   color: #D60000; }
   .profile-days-viewed li {
     padding-left: 0.7em; }
+  @media (min-width: 600px) {
+    .profile-days-viewed {
+      font-size: 1.1em; } }
+  @media (min-width: 900px) {
+    .profile-days-viewed {
+      font-size: 1.2em; } }
 
 .graph {
   margin-top: 2em;
-  width: 40em; }
+  width: 17em; }
+  @media (min-width: 600px) {
+    .graph {
+      width: 25em; } }
+  @media (min-width: 900px) {
+    .graph {
+      width: 40em; } }
 
 .make-connection {
   margin-top: 2em;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #D60000; }
+  @media (min-width: 600px) {
+    .make-connection {
+      font-size: 1.2em; } }
+  @media (min-width: 900px) {
+    .make-connection {
+      font-size: 1.5em; } }
 
 .connection-wrap {
   overflow: hidden;
@@ -245,19 +303,44 @@ a {
   margin-top: 1em; }
 
 .connect-box {
-  float: left;
-  height: 21em;
-  width: 11.5em;
+  height: 17em;
+  width: 10em;
   border: 1px solid #D6D7D9;
-  margin-right: 2em; }
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1em; }
+  @media (min-width: 600px) {
+    .connect-box {
+      float: left;
+      margin-right: 0.5em;
+      height: 19em;
+      width: 8em; } }
+  @media (min-width: 900px) {
+    .connect-box {
+      height: 21em;
+      margin-right: 2em;
+      width: 11.5em; } }
 
 .connection-pic {
-  width: 11.5em; }
+  width: 10em; }
+  @media (min-width: 600px) {
+    .connection-pic {
+      width: 8em; } }
+  @media (min-width: 900px) {
+    .connection-pic {
+      width: 11.5em; } }
 
 .connect-name {
   font-family: source-sans-pro;
   padding-top: 0.3em;
-  text-align: center; }
+  text-align: center;
+  font-size: 0.8em; }
+  @media (min-width: 600px) {
+    .connect-name {
+      font-size: 0.9em; } }
+  @media (min-width: 900px) {
+    .connect-name {
+      font-size: 1em; } }
 
 .connect-button {
   background-color: #1B50A0;
@@ -265,23 +348,46 @@ a {
   width: 5em;
   color: white;
   text-align: center;
-  padding: 0.5em;
+  padding: 0.2em;
   margin-top: 1.5em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  font-size: 0.9em; }
+  @media (min-width: 600px) {
+    .connect-button {
+      padding: 0.3em;
+      font-size: 0.9em; } }
+  @media (min-width: 900px) {
+    .connect-button {
+      padding: 0.5em;
+      font-size: 1em; } }
 
 /************** RIGHT INFO BAR **********************/
 /************** PROFILE PIC INFO BOX****************/
 .info-bar {
   font-family: source-sans-pro;
-  float: right;
   margin-top: 3em; }
+  @media (min-width: 600px) {
+    .info-bar {
+      float: right; } }
 
 .profile-box {
   border: 1px solid #D6D7D9;
   height: 12em;
   width: 16em;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 600px) {
+    .profile-box {
+      margin-left: 0;
+      margin-right: 0;
+      width: 12em;
+      height: 10em; } }
+  @media (min-width: 900px) {
+    .profile-box {
+      width: 16em;
+      height: 12em; } }
 
 .picture-info-wrap {
   overflow: hidden; }
@@ -292,20 +398,46 @@ a {
   margin-left: 1em;
   border-radius: 50%;
   float: left; }
+  @media (min-width: 600px) {
+    .profile-pic {
+      width: 4em; } }
+  @media (min-width: 900px) {
+    .profile-pic {
+      width: 6em; } }
 
 .profile-box-name {
   float: right;
   margin-top: 2em;
   margin-right: 1em;
   list-style-type: none; }
+  @media (min-width: 600px) {
+    .profile-box-name {
+      margin-right: 0.5em;
+      font-size: 0.8em; } }
+  @media (min-width: 900px) {
+    .profile-box-name {
+      margin-right: 1em;
+      font-size: 1em; } }
 
 .profile-box-edit {
   padding: 3em;
   text-align: center; }
+  @media (min-width: 600px) {
+    .profile-box-edit {
+      padding: 4em;
+      font-size: 0.8em; } }
+  @media (min-width: 900px) {
+    .profile-box-edit {
+      padding: 3em;
+      font-size: 1em; } }
 
 /******************* RIGHT SHARE BUTTONS***********/
+.button-email-wrap {
+  overflow: hidden; }
+
 .share-button-wrap {
-  margin-top: 3em; }
+  margin-top: 3em;
+  float: left; }
 
 .share-button {
   background-color: #1B50A0;
@@ -318,11 +450,21 @@ a {
 
 /****************** FREINDS EMAIL*****************/
 .email-box-wrap {
-  margin-top: 3em; }
+  margin-top: 2em;
+  float: right; }
+  @media (min-width: 600px) {
+    .email-box-wrap {
+      float: left; } }
 
 .friends-invite {
   color: #D60000;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  margin-top: 3em;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 600px) {
+    .friends-invite {
+      margin-top: 1em; } }
 
 .friends-email {
   margin-top: 1.5em; }
@@ -335,7 +477,15 @@ a {
   text-align: center;
   height: 10em;
   width: 15em;
-  margin-top: 3em; }
+  margin-top: 3em;
+  margin-left: 3em; }
+  @media (min-width: 600px) {
+    .ad-box {
+      margin-left: 0;
+      width: 12em; } }
+  @media (min-width: 900px) {
+    .ad-box {
+      width: 16em; } }
 
 .ad-text {
   padding-top: 4em; }
@@ -346,5 +496,11 @@ footer {
 
 .footer-bar {
   display: inline-block;
-  padding-left: 35%;
+  padding-left: 15%;
   padding-top: 3em; }
+  @media (min-width: 600px) {
+    .footer-bar {
+      padding-left: 30%; } }
+  @media (min-width: 900px) {
+    .footer-bar {
+      padding-left: 35%; } }

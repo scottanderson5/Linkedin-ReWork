@@ -115,60 +115,96 @@ a{
 }
 
 .logo{
-	width: 4em;
+	width: 1.5em;
 	padding: 0.8em 0.5em 0em 0.5em;
+
+	@media (min-width: 600px){
+		width: 3em;
+	}
+
+	@media (min-width: 900px){
+		width: 4em;
+	}
 }
 
 .nav-bar{
 	display: inline-block;
 	padding: 1em 0.5em 0.5em 0em;
 	margin: 0;
-	transform: translate(0, -1.2em);
+	width: 75%;
 }
 
 .nav-li{
 	font-family: $Font;
-	font-size: 1.2em;
+	font-size: 0.8em;
 	color: white;
 	padding: 0.5em;
 	text-decoration: none;
 	list-style-type: none;
+
+	@media (min-width: 600px){
+		font-size: 1em;
+	}
+
+	@media (min-width: 900px){
+		font-size: 1.2em;
+	}
 }
 
 /************** CENTER ***************************/
 
 .main-body{
-	margin-left: auto;
-	margin-right: auto;
+	padding-right: 2em;
+	padding-left: 2em;
+	max-width: 1100px;
 	overflow: hidden;
 
 }
 
 .center-info{
-	float: left;
 	margin-top: 3em;
 	overflow: hidden;
+
+	@media (min-width: 600px){
+		float: left;
+	}
 }
 
 /*************** CENTER SEARCH BAR ***************/
 
 .center-search-bar{
 	font-family: $Font;
+	width: 12em;
 	float: left;
-	width: 30em;
-	margin: 0;
+	margin-left: 3em;
 	input{
 		width: 100%;
+		font-size: 0.8em;
 		height: 2em;
+	}
+
+	@media (min-width: 600px){
+		margin: 0;
+		width: 20em;
+		input{
+		font-size: 1em;
+		}
+	}
+
+	@media (min-width: 900px){
+		width: 30em;
 	}
 }
 
 .search-icon{
-	float: left;
 	background-color: $PrimaryBackground;
 	color: white;
 	text-align: center;
-	height: 2.37em;
+	height: 2em;
+	float: left;
+	@media (min-width: 600px){
+		height: 2.37em;
+	}
 }
 
 .icon-move{
@@ -180,8 +216,16 @@ a{
 .center-main-box{
 	border: 1px solid #D6D7D9;
 	margin-top: 60px;
-	height: 60em;
-	max-width: 44em;
+	max-width: 20em;
+
+	@media (min-width: 600px){
+		margin-left: 0;
+		max-width: 30em;
+	}
+
+	@media (min-width: 900px){
+		max-width: 44em;
+	}
 }
 
 .center-main-box-header{
@@ -207,8 +251,8 @@ a{
 	text-align: center;
 	padding: 0.5em;
 	margin-top: 1em;
-	margin-left: 1em;
 	float: left;
+	margin-left: 1em;
 }
 
 .button-content{
@@ -234,30 +278,62 @@ a{
 
 .activity-views{
 	color: $SecondaryTextColor;
-	font-size: 3em; 
+	font-size: 2.1em; 
 	float: left;
+
+	@media (min-width: 600px){
+		font-size: 2.8em;
+	}
+
+	@media (min-width: 900px){
+		font-size: 3em;
+	}
 }
 
 .profile-days-viewed{
 	font-family: $Font;
 	float: left;
-	font-size: 1.2em;
+	font-size: 1em;
 	list-style-type: none;
 	color: $SecondaryTextColor;
 		li{
 			padding-left: 0.7em;
 		}
+	
+	@media (min-width: 600px){
+		font-size: 1.1em;
+	}
+
+	@media (min-width: 900px){
+		font-size: 1.2em;
+	}	
 }
 
 .graph{
 	margin-top: 2em;
-	width: 40em;
+	width: 17em;
+
+	@media (min-width: 600px){
+		width: 25em;
+	}
+
+	@media (min-width: 900px){
+		width: 40em;
+	}
 }
 
 .make-connection{
 	margin-top: 2em;
-	font-size: 1.5em;
+	font-size: 1em;
 	color: $SecondaryTextColor;
+
+	@media (min-width: 600px){
+		font-size: 1.2em;
+	}
+
+	@media (min-width: 900px){
+		font-size: 1.5em;
+	}
 }
 
 .connection-wrap{
@@ -267,21 +343,52 @@ a{
 }
 
 .connect-box{
-	float: left;
-	height: 21em;
-	width: 11.5em;
+	height: 17em;
+	width: 10em;
 	border: 1px solid #D6D7D9;
-	margin-right: 2em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1em;
+
+	@media (min-width: 600px){
+		float: left;
+		margin-right: 0.5em;
+		height: 19em;
+		width: 8em;
+	}
+
+	@media (min-width: 900px){
+		height: 21em;
+		margin-right: 2em;
+		width: 11.5em;
+	}
 }
 
 .connection-pic{
-	width: 11.5em;
+	width: 10em;
+
+	@media (min-width: 600px){
+		width: 8em;
+	}
+
+	@media (min-width: 900px){
+		width: 11.5em;
+	}
 }
 
 .connect-name{
 	font-family: $Font;
 	padding-top: 0.3em;
 	text-align: center;
+	font-size: 0.8em;
+
+	@media (min-width: 600px){
+		font-size: 0.9em;
+	}
+
+	@media (min-width: 900px){
+		font-size: 1em;
+	}
 }
 
 .connect-button{
@@ -290,10 +397,21 @@ a{
 	width: 5em;
 	color: white;
 	text-align: center;
-	padding: 0.5em;
+	padding: 0.2em;
 	margin-top: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 0.9em;
+
+	@media (min-width: 600px){
+		padding: 0.3em;
+		font-size: 0.9em;
+	}
+
+	@media (min-width: 900px){
+		padding: 0.5em;
+		font-size: 1em;
+	}
 }
 
 
@@ -303,8 +421,11 @@ a{
 
 .info-bar{
 	font-family: $Font;
-	float: right;
 	margin-top: 3em;
+
+	@media (min-width: 600px){
+		float: right;
+	}
 }
 
 .profile-box{
@@ -312,6 +433,20 @@ a{
 	height: 12em;
 	width: 16em;
 	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+
+	@media (min-width: 600px){
+		margin-left: 0;
+		margin-right: 0;
+		width: 12em;
+		height: 10em;
+	}
+
+	@media (min-width: 900px){
+		width: 16em;
+		height: 12em;
+	}
 }
 
 .picture-info-wrap{
@@ -324,6 +459,14 @@ a{
 	margin-left: 1em;
 	border-radius: 50%;
 	float: left;
+
+	@media (min-width: 600px){
+		width: 4em;
+	}
+
+	@media (min-width: 900px){
+		width: 6em;
+	}
 }
 
 .profile-box-name{
@@ -331,17 +474,43 @@ a{
 	margin-top: 2em;
 	margin-right: 1em;
 	list-style-type: none;
+
+	@media (min-width: 600px){
+		margin-right: 0.5em;
+		font-size: 0.8em;
+	}
+
+	@media (min-width: 900px){
+		margin-right: 1em;
+		font-size: 1em;
+
+	}
 }
 
 .profile-box-edit{
 	padding: 3em;
 	text-align: center;
+
+	@media (min-width: 600px){
+		padding: 4em;
+		font-size: 0.8em;
+	}
+
+	@media (min-width: 900px){
+		padding: 3em;
+		font-size: 1em;
+	}
 }
 
 /******************* RIGHT SHARE BUTTONS***********/
 
+.button-email-wrap{
+	overflow: hidden;
+}
+
 .share-button-wrap{
 	margin-top: 3em;
+	float: left;
 }
 
 .share-button{
@@ -357,12 +526,24 @@ a{
 /****************** FREINDS EMAIL*****************/
 
 .email-box-wrap{
-	margin-top: 3em;
+	margin-top: 2em;
+	float: right;
+
+	@media (min-width: 600px){
+		float: left;
+	}
 }
 
 .friends-invite{
 	color: $SecondaryTextColor;
 	font-size: 1.2em;
+	margin-top: 3em;
+	margin-right: auto;
+	margin-left: auto;
+
+	@media (min-width: 600px){
+		margin-top: 1em;
+	}
 }
 
 .friends-email{
@@ -371,6 +552,7 @@ a{
 	input{
 		text-align: center;
 	}
+
 }
 
 /****************** AD SPACE *********************/
@@ -381,6 +563,16 @@ a{
 	height: 10em;
 	width: 15em;
 	margin-top: 3em;
+	margin-left: 3em;
+
+	@media (min-width: 600px){
+		margin-left: 0;
+		width: 12em;
+	}
+
+	@media (min-width: 900px){
+		width: 16em;
+	}
 }
 
 .ad-text{
@@ -395,8 +587,16 @@ footer{
 
 .footer-bar{
 	display: inline-block;
-	padding-left: 35%;
+	padding-left: 15%;
 	padding-top: 3em;
+
+	@media (min-width: 600px){
+		padding-left: 30%;
+	}
+
+	@media (min-width: 900px){
+		padding-left: 35%;
+	}
 }
 
 
