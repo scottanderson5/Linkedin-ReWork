@@ -127,12 +127,13 @@ a {
 
 .nav-bar {
   display: inline-block;
-  padding: 0em 0.5em 0.5em 0em;
+  padding: 1em 0.5em 0.5em 0em;
   margin: 0;
   transform: translate(0, -1.2em); }
 
 .nav-li {
   font-family: source-sans-pro;
+  font-size: 1.2em;
   color: white;
   padding: 0.5em;
   text-decoration: none;
@@ -173,7 +174,7 @@ a {
 .center-main-box {
   border: 1px solid #D6D7D9;
   margin-top: 60px;
-  height: 50em;
+  height: 60em;
   max-width: 44em; }
 
 .center-main-box-header {
@@ -209,12 +210,11 @@ a {
 /************** ACTIVE SWITCH CONTENT *************/
 .activity-wrap {
   margin-top: 1em;
-  padding: 1em; }
+  padding: 1.5em; }
 
 .views-wrap {
   overflow: hidden;
-  width: 15em;
-  padding-left: 2em; }
+  width: 15em; }
 
 .activity-views {
   color: #D60000;
@@ -224,17 +224,51 @@ a {
 .profile-days-viewed {
   font-family: source-sans-pro;
   float: left;
+  font-size: 1.2em;
   list-style-type: none;
-  padding-top: 0.2em;
   color: #D60000; }
   .profile-days-viewed li {
-    padding-top: 0.1em;
     padding-left: 0.7em; }
 
 .graph {
   margin-top: 2em;
-  padding-left: 2em;
-  width: 90%; }
+  width: 40em; }
+
+.make-connection {
+  margin-top: 2em;
+  font-size: 1.5em;
+  color: #D60000; }
+
+.connection-wrap {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 1em; }
+
+.connect-box {
+  float: left;
+  height: 21em;
+  width: 11.5em;
+  border: 1px solid #D6D7D9;
+  margin-right: 2em; }
+
+.connection-pic {
+  width: 11.5em; }
+
+.connect-name {
+  font-family: source-sans-pro;
+  padding-top: 0.3em;
+  text-align: center; }
+
+.connect-button {
+  background-color: #1B50A0;
+  height: 1.5em;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto; }
 
 /************** RIGHT INFO BAR **********************/
 /************** PROFILE PIC INFO BOX****************/
@@ -245,15 +279,15 @@ a {
 
 .profile-box {
   border: 1px solid #D6D7D9;
-  height: 10em;
-  width: 15em;
+  height: 12em;
+  width: 16em;
   overflow: hidden; }
 
 .picture-info-wrap {
   overflow: hidden; }
 
 .profile-pic {
-  width: 5em;
+  width: 6em;
   margin-top: 1em;
   margin-left: 1em;
   border-radius: 50%;
@@ -266,12 +300,12 @@ a {
   list-style-type: none; }
 
 .profile-box-edit {
-  padding: 1em;
+  padding: 3em;
   text-align: center; }
 
 /******************* RIGHT SHARE BUTTONS***********/
 .share-button-wrap {
-  margin-top: 2em; }
+  margin-top: 3em; }
 
 .share-button {
   background-color: #1B50A0;
@@ -280,17 +314,18 @@ a {
   color: white;
   text-align: center;
   padding: 0.5em;
-  margin-top: 1em; }
+  margin-top: 1.5em; }
 
 /****************** FREINDS EMAIL*****************/
 .email-box-wrap {
-  margin-top: 2em; }
+  margin-top: 3em; }
 
 .friends-invite {
-  color: #D60000; }
+  color: #D60000;
+  font-size: 1.2em; }
 
 .friends-email {
-  margin-top: 1em; }
+  margin-top: 1.5em; }
   .friends-email input {
     text-align: center; }
 
@@ -300,8 +335,7 @@ a {
   text-align: center;
   height: 10em;
   width: 15em;
-  margin-top: 2em;
-  margin-bottom: 2em; }
+  margin-top: 3em; }
 
 .ad-text {
   padding-top: 4em; }
