@@ -100,6 +100,7 @@ $ind-col-width: ($tot-width - ($gut-width * ($num-col - 1))) / $num-col;
 
 $Font: source-sans-pro;
 $PrimaryBackground: #1B50A0;
+$SecondaryTextColor: #D60000;
 
 a{
 	text-decoration: none;
@@ -225,9 +226,34 @@ a{
 	padding: 1em;
 }
 
+.views-wrap{
+	overflow: hidden;
+	width: 15em;
+	padding-left: 2em;
+}
+
 .activity-views{
-	color: #D60000;
+	color: $SecondaryTextColor;
 	font-size: 3em; 
+	float: left;
+}
+
+.profile-days-viewed{
+	font-family: $Font;
+	float: left;
+	list-style-type: none;
+	padding-top: 0.2em;
+	color: $SecondaryTextColor;
+		li{
+			padding-top: 0.1em;
+			padding-left: 0.7em;
+		}
+}
+
+.graph{
+	margin-top: 2em;
+	padding-left: 2em;
+	width: 90%;
 }
 
 
@@ -244,6 +270,7 @@ a{
 .profile-box{
 	border: 1px solid #D6D7D9;
 	height: 10em;
+	width: 15em;
 	overflow: hidden;
 }
 
@@ -262,7 +289,7 @@ a{
 .profile-box-name{
 	float: right;
 	margin-top: 2em;
-	margin-right: 1.6em;
+	margin-right: 1em;
 	list-style-type: none;
 }
 
@@ -294,7 +321,7 @@ a{
 }
 
 .friends-invite{
-	color: #D60000;
+	color: $SecondaryTextColor;
 }
 
 .friends-email{
@@ -311,6 +338,7 @@ a{
 	border: 1px solid #D6D7D9;
 	text-align: center;
 	height: 10em;
+	width: 15em;
 	margin-top: 2em;
 	margin-bottom: 2em;
 }

@@ -211,9 +211,30 @@ a {
   margin-top: 1em;
   padding: 1em; }
 
+.views-wrap {
+  overflow: hidden;
+  width: 15em;
+  padding-left: 2em; }
+
 .activity-views {
   color: #D60000;
-  font-size: 3em; }
+  font-size: 3em;
+  float: left; }
+
+.profile-days-viewed {
+  font-family: source-sans-pro;
+  float: left;
+  list-style-type: none;
+  padding-top: 0.2em;
+  color: #D60000; }
+  .profile-days-viewed li {
+    padding-top: 0.1em;
+    padding-left: 0.7em; }
+
+.graph {
+  margin-top: 2em;
+  padding-left: 2em;
+  width: 90%; }
 
 /************** RIGHT INFO BAR **********************/
 /************** PROFILE PIC INFO BOX****************/
@@ -225,6 +246,7 @@ a {
 .profile-box {
   border: 1px solid #D6D7D9;
   height: 10em;
+  width: 15em;
   overflow: hidden; }
 
 .picture-info-wrap {
@@ -240,7 +262,7 @@ a {
 .profile-box-name {
   float: right;
   margin-top: 2em;
-  margin-right: 1.6em;
+  margin-right: 1em;
   list-style-type: none; }
 
 .profile-box-edit {
@@ -277,6 +299,7 @@ a {
   border: 1px solid #D6D7D9;
   text-align: center;
   height: 10em;
+  width: 15em;
   margin-top: 2em;
   margin-bottom: 2em; }
 
