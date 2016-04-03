@@ -184,7 +184,7 @@ a {
 .button-wrapper {
   overflow: hidden; }
 
-#button {
+.button {
   font-family: source-sans-pro;
   background-color: #1B50A0;
   text-decoration: none;
@@ -196,6 +196,19 @@ a {
   margin-top: 1em;
   margin-left: 1em;
   float: left; }
+
+.button-content {
+  display: none;
+  clear: both; }
+
+.active {
+  display: block; }
+
+#buttonActive {
+  margin: 0 auto; }
+
+#buttonNews {
+  margin: 0 auto; }
 
 /************** RIGHT INFO BAR **********************/
 /************** PROFILE PIC INFO BOX****************/

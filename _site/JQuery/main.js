@@ -1,12 +1,11 @@
-
-
-
-	$('#button').click(function(){
-		if ($(this).hasClass('buttonActive')){
-	$(this).removeClass('buttonActive').addClass('buttonNews');
-			}
-			else{
-				$(this).removeClass('buttonNews').addClass('buttonActive');
-			}
-	});
+$('.button').click(function(){
+  $('.button').removeClass('active');
+  $(this).addClass('active');
+  
+  $('.button-content').removeClass('active');
+  
+  var toggleId = $(this).attr('data-ui');
+  
+  $('#' + toggleId).addClass('active');
+});
 	
