@@ -112,6 +112,9 @@ h3 {
     .col-12:last-child {
       margin-right: auto; } }
 /*************** VARIABLES ********************/
+a {
+  text-decoration: none; }
+
 /*************** SITE HEADER ***********************/
 .site-header {
   background-color: #1B50A0;
@@ -178,9 +181,13 @@ h3 {
   height: 5em;
   overflow: hidden; }
 
-.center-main-activity, .center-main-news {
+.button-wrapper {
+  overflow: hidden; }
+
+#button {
   font-family: source-sans-pro;
-  background-color: #0066C2;
+  background-color: #1B50A0;
+  text-decoration: none;
   width: 5em;
   height: 1.5em;
   color: white;
@@ -191,6 +198,7 @@ h3 {
   float: left; }
 
 /************** RIGHT INFO BAR **********************/
+/************** PROFILE PIC INFO BOX****************/
 .info-bar {
   font-family: source-sans-pro;
   float: right;
@@ -198,4 +206,71 @@ h3 {
 
 .profile-box {
   border: 1px solid #D6D7D9;
-  height: 10em; }
+  height: 10em;
+  overflow: hidden; }
+
+.picture-info-wrap {
+  overflow: hidden; }
+
+.profile-pic {
+  width: 5em;
+  margin-top: 1em;
+  margin-left: 1em;
+  border-radius: 50%;
+  float: left; }
+
+.profile-box-name {
+  float: right;
+  margin-top: 2em;
+  margin-right: 1.6em;
+  list-style-type: none; }
+
+.profile-box-edit {
+  padding: 1em;
+  text-align: center; }
+
+/******************* RIGHT SHARE BUTTONS***********/
+.share-button-wrap {
+  margin-top: 2em; }
+
+.share-button {
+  background-color: #1B50A0;
+  height: 1.5em;
+  width: 7em;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  margin-top: 1em; }
+
+/****************** FREINDS EMAIL*****************/
+.email-box-wrap {
+  margin-top: 2em; }
+
+.friends-invite {
+  color: #D60000; }
+
+.friends-email {
+  margin-top: 1em; }
+  .friends-email input {
+    text-align: center; }
+
+/****************** AD SPACE *********************/
+.ad-box {
+  border: 1px solid #D6D7D9;
+  text-align: center;
+  height: 10em;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.ad-text {
+  padding-top: 4em; }
+
+/***************** FOOTER **********************/
+footer {
+  background-color: #1B50A0;
+  height: 5em; }
+
+.footer-bar {
+  display: inline-block;
+  padding-left: 35%;
+  padding-top: 3em; }
