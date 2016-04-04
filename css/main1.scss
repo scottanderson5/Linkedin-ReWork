@@ -151,6 +151,11 @@ a{
 	}
 }
 
+.nav-li:hover{
+	text-decoration: underline;
+	border: 1px solid white;
+}
+
 /************** CENTER ***************************/
 
 .main-body{
@@ -253,6 +258,13 @@ a{
 	margin-top: 1em;
 	float: left;
 	margin-left: 1em;
+}
+
+.button:hover{
+	background-color: white;
+	border: 1px solid $PrimaryBackground;
+	color: $PrimaryBackground;
+	text-decoration: underline;
 }
 
 .button-content{
@@ -365,14 +377,15 @@ a{
 }
 
 .connection-pic{
-	width: 10em;
+	padding: 0.3em;
+	width: 9.4em;
 
 	@media (min-width: 600px){
-		width: 8em;
+		width: 7.5em;
 	}
 
 	@media (min-width: 900px){
-		width: 11.5em;
+		width: 11em;
 	}
 }
 
@@ -414,6 +427,13 @@ a{
 	}
 }
 
+.connect-button:hover{
+	background-color: white;
+	border: 1px solid $PrimaryBackground;
+	color: $PrimaryBackground;
+	text-decoration: underline;
+}
+
 /************** NEWS SWITCH CONTENT******************/
 
 .news-wrap{
@@ -424,7 +444,7 @@ a{
 
 .news-personal{
 	overflow: hidden;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 }
 
 .news-picture{
@@ -442,6 +462,7 @@ a{
 
 .news-info{
 	font-family: $Font;
+	border: 1px solid #D6D7D9;
 	font-size: 0.8em;
 	margin-left: 0.5em;
 	padding: 0.5em;
@@ -461,6 +482,10 @@ a{
 		font-size: 1.1em;
 		width: 25em;
 	}
+
+	span:hover{
+		text-decoration: underline;
+	}
 }
 
 .news-icon{
@@ -472,6 +497,10 @@ a{
 	font-size: 0.8em;
 	padding: 1em;
 	margin-bottom: 0.3em;
+}
+
+.news-shared-article:hover{
+	border: 1px solid black;
 }
 
 .shared-pic-icon{
@@ -570,6 +599,10 @@ a{
 	}
 }
 
+.profile-box-edit:hover{
+	text-decoration: underline;
+}
+
 /******************* RIGHT SHARE BUTTONS***********/
 
 .button-email-wrap{
@@ -589,6 +622,13 @@ a{
 	text-align: center;
 	padding: 0.5em;
 	margin-top: 1.5em;
+}
+
+.share-button:hover{
+	background-color: white;
+	border: 1px solid $PrimaryBackground;
+	color: $PrimaryBackground;
+	text-decoration: underline;
 }
 
 /****************** FREINDS EMAIL*****************/
@@ -651,7 +691,7 @@ a{
 /***************** FOOTER **********************/
 
 footer{
-	background-color: $PrimaryBackground;
+	background-color: #4B4B4D;
 }
 
 .footer-bar{
@@ -666,6 +706,15 @@ footer{
 	@media (min-width: 900px){
 		padding-left: 35%;
 	}
+}
+
+.foot-li{
+	color: white;
+	padding: 0.3em;
+}
+
+.foot-li:hover{
+	text-decoration: underline;
 }
 
 

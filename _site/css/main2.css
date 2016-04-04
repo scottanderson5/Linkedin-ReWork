@@ -12,3 +12,598 @@ h3 {
 
 .header-font {
   color: orange; }
+
+/*********** GRID LAYOUT ***************/
+/*************** ROW AND COL FOR GRID ***********/
+.row {
+  /*margin-top: 2em;*/
+  overflow: hidden; }
+
+.col {
+  /*height: 2em;*/
+  margin-bottom: 1em; }
+
+/***************************************/
+@media (min-width: 600px) {
+  .col {
+    margin-bottom: 0; }
+
+  .col-1 {
+    width: 6.5%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-1:last-child {
+      margin-right: auto; }
+
+  .col-2 {
+    width: 15%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-2:last-child {
+      margin-right: auto; }
+
+  .col-3 {
+    width: 23.5%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-3:last-child {
+      margin-right: auto; }
+
+  .col-4 {
+    width: 32%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-4:last-child {
+      margin-right: auto; }
+
+  .col-5 {
+    width: 40.5%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-5:last-child {
+      margin-right: auto; }
+
+  .col-6 {
+    width: 49%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-6:last-child {
+      margin-right: auto; }
+
+  .col-7 {
+    width: 57.5%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-7:last-child {
+      margin-right: auto; }
+
+  .col-8 {
+    width: 66%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-8:last-child {
+      margin-right: auto; }
+
+  .col-9 {
+    width: 74.5%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-9:last-child {
+      margin-right: auto; }
+
+  .col-10 {
+    width: 83%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-10:last-child {
+      margin-right: auto; }
+
+  .col-11 {
+    width: 91.5%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-11:last-child {
+      margin-right: auto; }
+
+  .col-12 {
+    width: 100%;
+    /*float: left;*/
+    margin-right: 2%; }
+    .col-12:last-child {
+      margin-right: auto; } }
+/*************** VARIABLES ********************/
+a {
+  text-decoration: none;
+  color: white; }
+
+/*************** SITE HEADER ***********************/
+.site-header {
+  background-color: white;
+  margin-bottom: 0; }
+
+.logo {
+  width: 1.5em;
+  padding: 0.8em 0.5em 0em 0.5em; }
+  @media (min-width: 600px) {
+    .logo {
+      width: 3em; } }
+  @media (min-width: 900px) {
+    .logo {
+      width: 4em; } }
+
+.nav-bar {
+  display: inline-block;
+  padding: 1em 0.5em 0.5em 0em;
+  margin: 0;
+  width: 75%; }
+
+.nav-li {
+  font-family: open-sans;
+  font-size: 0.8em;
+  color: #063346;
+  padding: 0.5em;
+  text-decoration: none;
+  list-style-type: none; }
+  @media (min-width: 600px) {
+    .nav-li {
+      font-size: 1em; } }
+  @media (min-width: 900px) {
+    .nav-li {
+      font-size: 1.2em; } }
+
+.nav-li:hover {
+  background-color: #063346;
+  border-radius: 5%;
+  padding: 0.4em;
+  color: white; }
+
+/************** CENTER ***************************/
+.main-background {
+  background-color: #17415F; }
+
+.main-body {
+  padding-right: 2em;
+  padding-left: 2em;
+  max-width: 1100px;
+  overflow: hidden;
+  background-color: #17415F; }
+
+.center-info {
+  margin-top: 3em;
+  overflow: hidden; }
+  @media (min-width: 600px) {
+    .center-info {
+      float: left; } }
+
+/*************** CENTER SEARCH BAR ***************/
+.center-search-bar {
+  font-family: open-sans;
+  width: 12em;
+  float: left;
+  margin-left: 1em; }
+  .center-search-bar input {
+    width: 100%;
+    font-size: 0.6em;
+    height: 2em; }
+  @media (min-width: 600px) {
+    .center-search-bar {
+      margin: 0;
+      width: 20em; }
+      .center-search-bar input {
+        font-size: 1em; } }
+  @media (min-width: 900px) {
+    .center-search-bar {
+      width: 30em; } }
+
+.search-icon {
+  background-color: #046791;
+  color: white;
+  text-align: center;
+  height: 1.96em;
+  font-size: 0.8em;
+  float: left; }
+  @media (min-width: 600px) {
+    .search-icon {
+      height: 2.37em;
+      font-size: 1em; } }
+
+.search-icon:hover {
+  background-color: #1295E8; }
+
+.icon-move {
+  padding: 0.5em 1em 0.5em 1em; }
+
+/**************CENTER NEWS AND ACTIVITY BOX**********/
+.center-main-box {
+  margin-top: 60px;
+  max-width: 20em;
+  background-color: white; }
+  @media (min-width: 600px) {
+    .center-main-box {
+      margin-left: 0;
+      max-width: 30em; } }
+  @media (min-width: 900px) {
+    .center-main-box {
+      max-width: 44em; } }
+
+.center-main-box-header {
+  background-color: #04689B;
+  width: 100%;
+  height: 5em;
+  overflow: hidden; }
+
+.button-wrapper {
+  overflow: hidden; }
+
+/*********** TOGGLE BUTTONS **************/
+.button {
+  font-family: open-sans;
+  background-color: #063346;
+  border-radius: 5%;
+  text-decoration: none;
+  width: 5em;
+  height: 1.5em;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  margin-top: 1em;
+  float: left;
+  margin-left: 1em; }
+
+.button:hover {
+  background-color: #08425d; }
+
+.button-content {
+  display: none;
+  clear: both; }
+
+.active {
+  display: block; }
+
+/************** ACTIVE SWITCH CONTENT *************/
+.activity-wrap {
+  padding: 1.5em;
+  background-color: #F2F2F2; }
+
+.views-wrap {
+  overflow: hidden;
+  width: 15em; }
+
+.activity-views {
+  color: #063346;
+  font-size: 2.1em;
+  float: left; }
+  @media (min-width: 600px) {
+    .activity-views {
+      font-size: 2.8em; } }
+  @media (min-width: 900px) {
+    .activity-views {
+      font-size: 3em; } }
+
+.profile-days-viewed {
+  font-family: open-sans;
+  float: left;
+  font-size: 1em;
+  list-style-type: none;
+  color: #063346; }
+  .profile-days-viewed li {
+    padding-left: 0.7em; }
+  @media (min-width: 600px) {
+    .profile-days-viewed {
+      font-size: 1.1em; } }
+  @media (min-width: 900px) {
+    .profile-days-viewed {
+      font-size: 1.2em; } }
+
+.graph {
+  margin-top: 2em;
+  width: 17em; }
+  @media (min-width: 600px) {
+    .graph {
+      width: 25em; } }
+  @media (min-width: 900px) {
+    .graph {
+      width: 40em; } }
+
+.make-connection {
+  margin-top: 2em;
+  font-size: 1em;
+  color: #063346; }
+  @media (min-width: 600px) {
+    .make-connection {
+      font-size: 1.2em; } }
+  @media (min-width: 900px) {
+    .make-connection {
+      font-size: 1.5em; } }
+
+.connection-wrap {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 1em; }
+
+.connect-box {
+  height: 17em;
+  width: 10em;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1em;
+  background-color: #046791; }
+  @media (min-width: 600px) {
+    .connect-box {
+      float: left;
+      margin-right: 0.5em;
+      height: 19em;
+      width: 8em; } }
+  @media (min-width: 900px) {
+    .connect-box {
+      height: 21em;
+      margin-right: 2em;
+      width: 11.5em; } }
+
+.connection-pic {
+  width: 10em; }
+  @media (min-width: 600px) {
+    .connection-pic {
+      width: 8em; } }
+  @media (min-width: 900px) {
+    .connection-pic {
+      width: 11.5em; } }
+
+.connect-name {
+  font-family: open-sans;
+  padding-top: 0.3em;
+  text-align: center;
+  font-size: 0.8em; }
+  @media (min-width: 600px) {
+    .connect-name {
+      font-size: 0.8em; } }
+  @media (min-width: 900px) {
+    .connect-name {
+      font-size: 1em; } }
+
+.connect-button {
+  background-color: #063346;
+  height: 1.5em;
+  width: 5em;
+  color: white;
+  text-align: center;
+  padding: 0.2em;
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.9em; }
+  @media (min-width: 600px) {
+    .connect-button {
+      padding: 0.4em 0.3em 0.3em 0.3em;
+      font-size: 0.9em; } }
+  @media (min-width: 900px) {
+    .connect-button {
+      padding: 0.6em 0.5em 0.5em 0.5em;
+      font-size: 1em; } }
+
+.connect-button:hover {
+  background-color: #08425d; }
+
+/************** NEWS SWITCH CONTENT******************/
+.news-wrap {
+  padding: 1.5em;
+  overflow: hidden;
+  background-color: #F2F2F2;
+  color: white; }
+
+.news-personal {
+  overflow: hidden;
+  margin-bottom: 2em;
+  padding: 1em; }
+
+.news-picture {
+  width: 6em;
+  float: left; }
+  @media (min-width: 600px) {
+    .news-picture {
+      width: 5em; } }
+  @media (min-width: 900px) {
+    .news-picture {
+      width: 6em; } }
+
+.news-info {
+  font-family: open-sans;
+  background-color: #046791;
+  font-size: 0.8em;
+  padding: 0.5em;
+  list-style-type: none;
+  width: 13em;
+  float: left; }
+  .news-info li {
+    padding-bottom: 0.6em; }
+  @media (min-width: 600px) {
+    .news-info {
+      font-size: 1em;
+      width: 18em; } }
+  @media (min-width: 900px) {
+    .news-info {
+      font-size: 1.1em;
+      width: 25em; } }
+
+.news-icon {
+  padding-right: 0.6em; }
+
+.news-shared-article {
+  border: 1px solid #D6D7D9;
+  font-size: 0.8em;
+  padding: 1em;
+  color: white;
+  margin-bottom: 0.3em; }
+
+.shared-pic-icon {
+  width: 5em;
+  padding-right: 1.5em;
+  float: left; }
+
+/************** RIGHT INFO BAR **********************/
+/************** PROFILE PIC INFO BOX****************/
+.info-bar {
+  font-family: open-sans;
+  margin-top: 3em; }
+  @media (min-width: 600px) {
+    .info-bar {
+      float: right; } }
+
+.profile-box {
+  height: 12em;
+  width: 17em;
+  color: white;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #04689B; }
+  @media (min-width: 600px) {
+    .profile-box {
+      margin-left: 0;
+      margin-right: 0;
+      width: 13em;
+      height: 10em; } }
+  @media (min-width: 900px) {
+    .profile-box {
+      width: 17em;
+      height: 12em; } }
+
+.picture-info-wrap {
+  overflow: hidden; }
+
+.profile-pic {
+  width: 6em;
+  margin-top: 1em;
+  margin-left: 1em;
+  border-radius: 50%;
+  float: left; }
+  @media (min-width: 600px) {
+    .profile-pic {
+      width: 4em; } }
+  @media (min-width: 900px) {
+    .profile-pic {
+      width: 6em; } }
+
+.profile-box-name {
+  float: right;
+  margin-top: 2em;
+  margin-right: 1em;
+  list-style-type: none; }
+  @media (min-width: 600px) {
+    .profile-box-name {
+      margin-right: 0.5em;
+      font-size: 0.8em; } }
+  @media (min-width: 900px) {
+    .profile-box-name {
+      margin-right: 1em;
+      font-size: 1em; } }
+
+.profile-box-edit {
+  padding: 3em;
+  text-align: center; }
+  @media (min-width: 600px) {
+    .profile-box-edit {
+      padding: 4em;
+      font-size: 0.8em; } }
+  @media (min-width: 900px) {
+    .profile-box-edit {
+      padding: 3em;
+      font-size: 1em; } }
+
+.profile-box-edit:hover {
+  text-decoration: underline; }
+
+/******************* RIGHT SHARE BUTTONS***********/
+.button-email-wrap {
+  overflow: hidden; }
+
+.share-button-wrap {
+  margin-top: 2em;
+  float: left; }
+
+.share-button {
+  height: 1.5em;
+  width: 8em;
+  color: white;
+  text-align: left;
+  padding: 0.5em;
+  margin-top: 1.5em; }
+
+.share-button:hover {
+  text-decoration: underline; }
+
+/****************** FREINDS EMAIL*****************/
+.email-box-wrap {
+  margin-top: 2em;
+  float: right;
+  background-color: #046791;
+  padding: 1em; }
+  @media (min-width: 600px) {
+    .email-box-wrap {
+      float: left; } }
+
+.friends-invite {
+  color: white;
+  font-size: 1.2em;
+  margin-right: auto;
+  margin-left: auto; }
+
+.friends-email {
+  margin-top: 1.5em; }
+  .friends-email input {
+    text-align: center; }
+
+/****************** AD SPACE *********************/
+.ad-box {
+  border: 1px solid #D6D7D9;
+  text-align: center;
+  background-color: white;
+  height: 10em;
+  width: 15em;
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-bottom: 1em; }
+  @media (min-width: 600px) {
+    .ad-box {
+      margin-left: 0;
+      width: 12em; } }
+  @media (min-width: 900px) {
+    .ad-box {
+      width: 16em; } }
+
+.ad-text {
+  padding-top: 4em; }
+
+/***************** FOOTER **********************/
+footer {
+  background-color: #F7F7F7; }
+
+.footer-bar {
+  display: inline-block;
+  padding-left: 15%;
+  padding-top: 3em;
+  color: #646464; }
+  @media (min-width: 600px) {
+    .footer-bar {
+      padding-left: 30%; } }
+  @media (min-width: 900px) {
+    .footer-bar {
+      padding-left: 35%; } }
+
+.foot-li {
+  font-family: open-sans;
+  font-size: 0.8em;
+  color: #646464;
+  padding: 0.5em;
+  text-decoration: none;
+  list-style-type: none; }
+  @media (min-width: 600px) {
+    .foot-li {
+      font-size: 1em; } }
+  @media (min-width: 900px) {
+    .foot-li {
+      font-size: 1.2em; } }
+
+.foot-li:hover {
+  text-decoration: underline; }
