@@ -424,28 +424,63 @@ a{
 
 .news-personal{
 	overflow: hidden;
+	margin-bottom: 2em;
 }
 
 .news-picture{
-	width: 8em;
+	width: 4em;
 	float: left;
+
+	@media (min-width: 600px){
+		width: 5em;
+	}
+
+	@media (min-width: 900px){
+		width: 6em;
+	}
 }
 
 .news-info{
 	font-family: $Font;
-	font-size: 1.1em;
-	padding: 1em;
+	font-size: 0.8em;
+	margin-left: 0.5em;
+	padding: 0.5em;
 	list-style-type: none;
-	width: 25em;
+	width: 13em;
 	float: left;
 	li{
-		padding-bottom: 1em;
+		padding-bottom: 0.6em;
+	}
+
+	@media (min-width: 600px){
+		font-size: 1em;
+		width: 18em;
+	}
+
+	@media (min-width: 900px){
+		font-size: 1.1em;
+		width: 25em;
 	}
 }
 
 .news-icon{
 	padding-right: 0.6em;
 }
+
+.news-shared-article{
+	border: 1px solid #D6D7D9;
+	font-size: 0.8em;
+	padding: 1em;
+	margin-bottom: 0.3em;
+}
+
+.shared-pic-icon{
+	width: 5em;
+	padding-right: 1.5em;
+	float: left;
+}
+
+
 
 
 /************** RIGHT INFO BAR **********************/
@@ -597,6 +632,7 @@ a{
 	width: 15em;
 	margin-top: 3em;
 	margin-left: 3em;
+	margin-bottom: 1em;
 
 	@media (min-width: 600px){
 		margin-left: 0;
