@@ -131,7 +131,7 @@ a{
 	display: inline-block;
 	padding: 1em 0.5em 0.5em 0em;
 	margin: 0;
-	width: 75%;
+
 }
 
 .nav-li{
@@ -141,6 +141,7 @@ a{
 	padding: 0.5em;
 	text-decoration: none;
 	list-style-type: none;
+	border: 1px solid transparent;
 
 	@media (min-width: 600px){
 		font-size: 1em;
@@ -161,7 +162,6 @@ a{
 .main-body{
 	padding-right: 2em;
 	padding-left: 2em;
-	max-width: 1100px;
 	overflow: hidden;
 
 }
@@ -229,7 +229,7 @@ a{
 	}
 
 	@media (min-width: 900px){
-		max-width: 44em;
+		max-width: 50em;
 	}
 }
 
@@ -240,11 +240,11 @@ a{
 	overflow: hidden;
 }
 
+/*********** TOGGLE BUTTONS **************/
+
 .button-wrapper{
 	overflow: hidden;
 }
-
-/*********** TOGGLE BUTTONS **************/
 
 .button{
 	font-family: $Font;
@@ -258,6 +258,7 @@ a{
 	margin-top: 1em;
 	float: left;
 	margin-left: 1em;
+	border: 1px solid transparent;
 }
 
 .button:hover{
@@ -330,7 +331,7 @@ a{
 	}
 
 	@media (min-width: 900px){
-		width: 40em;
+		width: 46em;
 	}
 }
 
@@ -345,32 +346,34 @@ a{
 
 	@media (min-width: 900px){
 		font-size: 1.5em;
+		margin-bottom: 2em;
 	}
 }
 
 .connection-wrap{
 	overflow: hidden;
-	width: 100%;
 	margin-top: 1em;
+
+	@media (min-width: 900px){
+		margin-left: 4em;
+	}
 }
 
 .connect-box{
-	height: 17em;
 	width: 10em;
 	border: 1px solid #D6D7D9;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 1em;
+	padding-bottom: 1em;
 
 	@media (min-width: 600px){
 		float: left;
 		margin-right: 0.5em;
-		height: 19em;
 		width: 8em;
 	}
 
 	@media (min-width: 900px){
-		height: 21em;
 		margin-right: 2em;
 		width: 11.5em;
 	}
@@ -414,7 +417,8 @@ a{
 	margin-top: 1.5em;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 0.9em;
+	font-size: 0.8em;
+	border: 1px solid transparent;
 
 	@media (min-width: 600px){
 		padding: 0.3em;
@@ -612,16 +616,20 @@ a{
 .share-button-wrap{
 	margin-top: 3em;
 	float: left;
+
+	@media (min-width: 600px){
+		margin-right: 100%;
+	}
 }
 
 .share-button{
 	background-color: $PrimaryBackground;
-	height: 1.5em;
 	width: 7em;
 	color: white;
 	text-align: center;
 	padding: 0.5em;
 	margin-top: 1.5em;
+	border: 1px solid transparent;
 }
 
 .share-button:hover{
@@ -634,23 +642,29 @@ a{
 /****************** FREINDS EMAIL*****************/
 
 .email-box-wrap{
-	margin-top: 2em;
+	margin-top: 6em;
+	border: 1px solid #D6D7D9;
+	padding: 1em;
 	float: right;
 
 	@media (min-width: 600px){
+		margin-top: 3em;
 		float: left;
+		width: 9.5em;
 	}
 }
 
 .friends-invite{
 	color: $SecondaryTextColor;
 	font-size: 1.2em;
-	margin-top: 3em;
 	margin-right: auto;
 	margin-left: auto;
 
 	@media (min-width: 600px){
-		margin-top: 1em;
+	}
+
+	@media (min-width: 900px){
+		font-size: 1.5em;
 	}
 }
 
@@ -709,8 +723,17 @@ footer{
 }
 
 .foot-li{
+	font-size: 0.8em;
 	color: white;
 	padding: 0.3em;
+
+	@media (min-width: 600px){
+		font-size: 1em;
+	}
+
+	@media (min-width: 900px){
+		font-size: 1.1em;
+	}
 }
 
 .foot-li:hover{
