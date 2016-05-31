@@ -119,7 +119,8 @@ a {
 /*************** SITE HEADER ***********************/
 .site-header {
   background-color: #1B50A0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 0em 0em 1em 0em; }
 
 .logo {
   width: 1.5em;
@@ -133,7 +134,7 @@ a {
 
 .nav-bar {
   display: inline-block;
-  padding: 1em 0.5em 0.5em 0em;
+  padding: 1em 0.5em 0em 0em;
   margin: 0; }
 
 .nav-li {
