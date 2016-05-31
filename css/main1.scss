@@ -246,7 +246,7 @@ a{
 	overflow: hidden;
 }
 
-.button{
+.buttonLI{
 	font-family: $Font;
 	background-color: $PrimaryBackground;
 	text-decoration: none;
@@ -261,19 +261,19 @@ a{
 	border: 1px solid transparent;
 }
 
-.button:hover{
+.buttonLI:hover{
 	background-color: white;
 	border: 1px solid $PrimaryBackground;
 	color: $PrimaryBackground;
 	text-decoration: underline;
 }
 
-.button-content{
+.button-contentLI{
 	display: none;
 	clear: both;
 }
 
-.active{
+.activeLI{
 	display: block;
 }
 
@@ -556,13 +556,14 @@ a{
 
 .profile-pic{
 	width: 6em;
+	//height: 6em;
 	margin-top: 1em;
 	margin-left: 1em;
-	border-radius: 50%;
 	float: left;
 
 	@media (min-width: 600px){
 		width: 4em;
+		//height: 4em;
 	}
 
 	@media (min-width: 900px){

@@ -224,7 +224,7 @@ a {
 .button-wrapper {
   overflow: hidden; }
 
-.button {
+.buttonLI {
   font-family: source-sans-pro;
   background-color: #1B50A0;
   text-decoration: none;
@@ -238,17 +238,17 @@ a {
   margin-left: 1em;
   border: 1px solid transparent; }
 
-.button:hover {
+.buttonLI:hover {
   background-color: white;
   border: 1px solid #1B50A0;
   color: #1B50A0;
   text-decoration: underline; }
 
-.button-content {
+.button-contentLI {
   display: none;
   clear: both; }
 
-.active {
+.activeLI {
   display: block; }
 
 /************** ACTIVE SWITCH CONTENT *************/
@@ -474,7 +474,6 @@ a {
   width: 6em;
   margin-top: 1em;
   margin-left: 1em;
-  border-radius: 50%;
   float: left; }
   @media (min-width: 600px) {
     .profile-pic {

@@ -1,11 +1,11 @@
-$('.button').click(function(){
-  $('.button').removeClass('active');
-  $(this).addClass('active');
+$('.buttonLI').click(function(){
+  $('.buttonLI').removeClass('activeLI');
+  $(this).addClass('activeLI');
   
-  $('.button-content').removeClass('active');
+  $('.button-contentLI').removeClass('activeLI');
   
   var toggleId = $(this).attr('data-ui');
   
-  $('#' + toggleId).addClass('active');
+  $('#' + toggleId).addClass('activeLI');
 });
 	
