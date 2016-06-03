@@ -312,7 +312,7 @@ a {
       margin-left: 4em; } }
 
 .connect-box {
-  width: 10em;
+  width: 65%;
   border: 1px solid #D6D7D9;
   margin-right: auto;
   margin-left: auto;
@@ -322,33 +322,30 @@ a {
     .connect-box {
       float: left;
       margin-right: 0.5em;
-      width: 8em; } }
+      width: 25%; } }
   @media (min-width: 900px) {
     .connect-box {
-      margin-right: 2em;
-      width: 11.5em; } }
+      margin-right: 2em; } }
 
 .connection-pic {
-  padding: 0.3em;
-  width: 9.4em; }
-  @media (min-width: 600px) {
-    .connection-pic {
-      width: 7.5em; } }
-  @media (min-width: 900px) {
-    .connection-pic {
-      width: 11em; } }
+  width: 100%; }
 
-.connect-name {
+.connect-name, .connect-nameB {
   font-family: source-sans-pro;
   padding-top: 0.3em;
-  text-align: center;
+  text-align: center; }
+
+.connect-name {
+  font-size: 80%; }
+
+.connect-nameB {
   font-size: 0.8em; }
   @media (min-width: 600px) {
-    .connect-name {
-      font-size: 0.9em; } }
+    .connect-nameB {
+      font-size: 0.7em; } }
   @media (min-width: 900px) {
-    .connect-name {
-      font-size: 1em; } }
+    .connect-nameB {
+      font-size: 0.8em; } }
 
 .connect-button {
   background-color: #1B50A0;

@@ -354,7 +354,8 @@ a{
 }
 
 .connect-box{
-	width: 10em;
+	//width: 10em;
+	width: 65%;
 	border: 1px solid #D6D7D9;
 	margin-right: auto;
 	margin-left: auto;
@@ -364,40 +365,41 @@ a{
 	@media (min-width: 600px){
 		float: left;
 		margin-right: 0.5em;
-		width: 8em;
+		width: 25%;
+		//width: 8em;
 	}
 
 	@media (min-width: 900px){
 		margin-right: 2em;
-		width: 11.5em;
+		//width: 11.5em;
 	}
 }
 
 .connection-pic{
-	padding: 0.3em;
-	width: 9.4em;
-
-	@media (min-width: 600px){
-		width: 7.5em;
-	}
-
-	@media (min-width: 900px){
-		width: 11em;
-	}
+	width: 100%;
 }
 
-.connect-name{
+%connect-name{
 	font-family: $Font;
 	padding-top: 0.3em;
 	text-align: center;
+}
+
+.connect-name{
+	@extend %connect-name;
+	font-size: 80%;
+}
+
+.connect-nameB{
+	@extend %connect-name;
 	font-size: 0.8em;
 
 	@media (min-width: 600px){
-		font-size: 0.9em;
+		font-size: 0.7em;
 	}
 
 	@media (min-width: 900px){
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 }
 
