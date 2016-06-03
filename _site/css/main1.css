@@ -122,6 +122,9 @@ a {
   margin-bottom: 0;
   padding: 0em 0em 1em 0em; }
 
+.logo-wrap {
+  padding: 0.5em 0em 0em 0em; }
+
 .logo {
   width: 1.5em;
   padding: 0.8em 0.5em 0em 0.5em; }
@@ -270,7 +273,7 @@ a {
       font-size: 2.8em; } }
   @media (min-width: 900px) {
     .activity-views {
-      font-size: 3em; } }
+      font-size: 2.8em; } }
 
 .profile-days-viewed {
   font-family: source-sans-pro;
@@ -285,7 +288,8 @@ a {
       font-size: 1.1em; } }
   @media (min-width: 900px) {
     .profile-days-viewed {
-      font-size: 1.2em; } }
+      font-size: 1.2em;
+      padding-top: 0.3em; } }
 
 .graph {
   margin-top: 2em;
@@ -563,6 +567,9 @@ a {
   margin-top: 1.5em; }
   .friends-email input {
     text-align: center; }
+
+.friends-email-size {
+  width: 90%; }
 
 /****************** AD SPACE *********************/
 .ad-box {
