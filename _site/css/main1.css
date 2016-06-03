@@ -122,9 +122,6 @@ a {
   margin-bottom: 0;
   padding: 0em 0em 1em 0em; }
 
-.logo-wrap {
-  padding: 0.5em 0em 0em 0em; }
-
 .logo {
   width: 1.5em;
   padding: 0.8em 0.5em 0em 0.5em; }
@@ -280,7 +277,8 @@ a {
   float: left;
   font-size: 1em;
   list-style-type: none;
-  color: #D60000; }
+  color: #D60000;
+  padding-top: 0.3em; }
   .profile-days-viewed li {
     padding-left: 0.7em; }
   @media (min-width: 600px) {
@@ -288,18 +286,11 @@ a {
       font-size: 1.1em; } }
   @media (min-width: 900px) {
     .profile-days-viewed {
-      font-size: 1.2em;
-      padding-top: 0.3em; } }
+      font-size: 1.2em; } }
 
 .graph {
   margin-top: 2em;
-  width: 17em; }
-  @media (min-width: 600px) {
-    .graph {
-      width: 25em; } }
-  @media (min-width: 900px) {
-    .graph {
-      width: 46em; } }
+  width: 98%; }
 
 .make-connection {
   margin-top: 2em;

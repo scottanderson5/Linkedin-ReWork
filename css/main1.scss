@@ -115,10 +115,6 @@ a{
 	padding: 0em 0em 1em 0em;
 }
 
-.logo-wrap{
-	padding: 0.5em 0em 0em 0em;
-}
-
 .logo{
 	width: 1.5em;
 	padding: 0.8em 0.5em 0em 0.5em;
@@ -314,6 +310,7 @@ a{
 	font-size: 1em;
 	list-style-type: none;
 	color: $SecondaryTextColor;
+	padding-top: 0.3em;
 		li{
 			padding-left: 0.7em;
 		}
@@ -324,21 +321,12 @@ a{
 
 	@media (min-width: 900px){
 		font-size: 1.2em;
-		padding-top: 0.3em;
 	}	
 }
 
 .graph{
 	margin-top: 2em;
-	width: 17em;
-
-	@media (min-width: 600px){
-		width: 25em;
-	}
-
-	@media (min-width: 900px){
-		width: 46em;
-	}
+	width: 98%;
 }
 
 .make-connection{
@@ -562,14 +550,12 @@ a{
 
 .profile-pic{
 	width: 6em;
-	//height: 6em;
 	margin-top: 1em;
 	margin-left: 1em;
 	float: left;
 
 	@media (min-width: 600px){
 		width: 4em;
-		//height: 4em;
 	}
 
 	@media (min-width: 900px){
