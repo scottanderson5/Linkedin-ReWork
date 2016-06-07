@@ -141,16 +141,15 @@ a {
       display: inline-block; } }
 
 .nav-barB {
-  display: block;
+  display: none;
   padding: 1em 0.5em 0em 0em;
-  margin: 0; }
-  @media (min-width: 600px) {
-    .nav-barB {
-      display: none; } }
+  margin: 0;
+  text-align: right;
+  width: 90%;
+  z-index: 100; }
 
 .nav-li {
   font-family: source-sans-pro;
-  font-size: 0.8em;
   color: white;
   padding: 0.5em;
   text-decoration: none;
@@ -163,9 +162,22 @@ a {
     .nav-li {
       font-size: 1.2em; } }
 
+.nav-liB {
+  font-family: source-sans-pro;
+  font-size: 0.8em;
+  color: white;
+  padding: 0.5em;
+  text-decoration: none;
+  list-style-type: none;
+  display: block;
+  border: 1px solid transparent; }
+
 .nav-li:hover {
   text-decoration: underline;
   border: 1px solid white; }
+
+.nav-liB:hover {
+  text-decoration: underline; }
 
 .mobile-menu {
   display: block;

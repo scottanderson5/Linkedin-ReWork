@@ -140,19 +140,17 @@ a{
 }
 
 .nav-barB{
-	display: block;
+	display: none;
 	padding: 1em 0.5em 0em 0em;
 	margin: 0;
-
-	@media (min-width: 600px){
-		display: none;
-	}
+	text-align: right;
+	width: 90%;
+	z-index: 100;
 
 }
 
 .nav-li{
 	font-family: $Font;
-	font-size: 0.8em;
 	color: white;
 	padding: 0.5em;
 	text-decoration: none;
@@ -168,9 +166,25 @@ a{
 	}
 }
 
+.nav-liB{
+	font-family: $Font;
+	font-size: 0.8em;
+	color: white;
+	padding: 0.5em;
+	text-decoration: none;
+	list-style-type: none;
+	display: block;
+	border: 1px solid transparent;
+
+}
+
 .nav-li:hover{
 	text-decoration: underline;
 	border: 1px solid white;
+}
+
+.nav-liB:hover{
+	text-decoration: underline;
 }
 
 .mobile-menu{
@@ -386,7 +400,6 @@ a{
 }
 
 .connect-box{
-	//width: 10em;
 	width: 65%;
 	border: 1px solid #D6D7D9;
 	margin-right: auto;
@@ -398,12 +411,10 @@ a{
 		float: left;
 		margin-right: 0.5em;
 		width: 25%;
-		//width: 8em;
 	}
 
 	@media (min-width: 900px){
 		margin-right: 2em;
-		//width: 11.5em;
 	}
 }
 
