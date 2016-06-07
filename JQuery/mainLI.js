@@ -8,4 +8,9 @@ $('.buttonLI').click(function(){
   
   $('#' + toggleId).addClass('activeLI');
 });
+
+
+$('.mobile-menu').click(function(){
+  $('.nav-barB').slideToggle(500);
+});
 	

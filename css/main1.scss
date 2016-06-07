@@ -116,7 +116,7 @@ a{
 }
 
 .logo{
-	width: 1.5em;
+	width: 3em;
 	padding: 0.8em 0.5em 0em 0.5em;
 
 	@media (min-width: 600px){
@@ -129,9 +129,24 @@ a{
 }
 
 .nav-bar{
-	display: inline-block;
+	display: none;
 	padding: 1em 0.5em 0em 0em;
 	margin: 0;
+
+	@media (min-width: 600px){
+		display: inline-block;
+	}
+
+}
+
+.nav-barB{
+	display: block;
+	padding: 1em 0.5em 0em 0em;
+	margin: 0;
+
+	@media (min-width: 600px){
+		display: none;
+	}
 
 }
 
@@ -157,6 +172,23 @@ a{
 	text-decoration: underline;
 	border: 1px solid white;
 }
+
+.mobile-menu{
+    display: block;
+    float: right;
+    font-size: 3em;
+    padding-top: 0.1em;
+
+    @media (min-width: 550px){
+        display: none;
+    }
+}
+
+.bars-sizing{
+    width: 1.5em;
+    color: white;
+}
+
 
 /************** CENTER ***************************/
 
